@@ -33,3 +33,4 @@ function charCount(str) {
 let test = charCount("Hi there!!1234 How are you?");
 
 console.log(test);
+// this is a comment
