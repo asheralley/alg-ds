@@ -149,14 +149,14 @@ function countUniqueValues(arr) {
       uniqueIndex++;
       arr[uniqueIndex] = arr[checker];
     }
-    console.log(uniqueIndex, checker);
+    //    console.log(uniqueIndex, checker);
   }
-
+  console.log(arr);
   return uniqueIndex + 1;
 }
 
-let ahhh = countUniqueValues([1, 1, 2, 3, 4, 4, 4, 5, 6]);
-// console.log(ahhh);
+let ahhh = countUniqueValues([1, 1, 4, 4, 4, 4, 4, 5, 8]);
+console.log(ahhh);
 
 // Sliding window pattern
 function maxSubarraySum(arr, num) {
